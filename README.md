@@ -1,17 +1,15 @@
 # Building-an-ETL-Pipeline-using-PySpark
 # ETL Pipeline using PySpark
 
-This project demonstrates the implementation of a scalable **ETL (Extract, Transform, Load) pipeline using PySpark***, a distributed computing framework designed for big data processing. The pipeline processes a global temperature dataset spanning from 1961 to 2022, transforming it from a wide-format structure into a normalized long-format schema optimized for analytical queries and machine learning workflows.
+## This Project
+This project demonstrates the implementation of a scalable **ETL (Extract, Transform, Load) pipeline using PySpark**, a distributed computing framework designed for big data processing. The pipeline processes a global temperature dataset spanning from 1961 to 2022, transforming it from a wide-format structure into a normalized long-format schema optimized for analytical queries and machine learning workflows.
 
-Key features of the pipeline include:
+### Key features of the pipeline include:
+- **Distributed Data Processing**: Leveraging PySpark's distributed computing capabilities to handle large-scale datasets efficiently.
+- **Data Cleaning and Transformation**: Handling missing values, reshaping the dataset, and converting data types for improved usability.
+- **Optimized Storage**: Saving the processed data in Parquet format, a columnar storage solution that enhances query performance and reduces storage costs.
+- **Scalability**: Designed to scale seamlessly across clusters, making it suitable for processing even larger datasets in production environments.
 
-Distributed Data Processing: Leveraging PySpark's distributed computing capabilities to handle large-scale datasets efficiently.
-
-Data Cleaning and Transformation: Handling missing values, reshaping the dataset, and converting data types for improved usability.
-
-Optimized Storage: Saving the processed data in Parquet format, a columnar storage solution that enhances query performance and reduces storage costs.
-
-Scalability: Designed to scale seamlessly across clusters, making it suitable for processing even larger datasets in production environments.
 
 This project serves as a practical example of how to build robust, production-ready ETL pipelines for big data applications using PySpark. It highlights best practices in data engineering, including schema inference, data quality checks, and efficient storage formats.
 ---
