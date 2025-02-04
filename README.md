@@ -67,16 +67,37 @@ The dataset is in CSV format, with each year's temperature data stored in separa
 - The transformed data is saved in **Parquet format**, which is optimized for storage and querying in distributed systems.
 
 ---
+### Dependencies
+**PySpark**: For distributed data processing.
 
-## How to Run the Code
+**Pandas**: For data manipulation (optional, used in the notebook).
 
-### Prerequisites
-- Python 3.x
-- PySpark
-- Jupyter Notebook (optional, for running the provided notebook)
+**Jupyter Notebook**: For interactive execution (optional).
 
-### Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/mauzumshamil/etl-pipeline-pyspark.git
-   cd etl-pipeline-pyspark
+### Results
+After running the pipeline:
+
+- The dataset is cleaned and transformed into a long format.
+- The processed data is saved as a Parquet file (processed_temperature.parquet).
+- The final dataset has the following columns:
+
+  - ObjectId
+  - Country
+  - ISO3
+  - Year
+  - Temperature
+
+
+## Profiles
+Feel free to explore more of my work and connect with me:
+
+- **GitHub**: [https://github.com/mauzumshamil](https://github.com/mauzumshamil)
+  Check out my other projects and code samples.
+
+- **LinkedIn**: [http://linkedin.com/in/mauzum-shamil](http://linkedin.com/in/mauzum-shamil)
+  Connect with me on LinkedIn.
+
+- **Portfolio**: [https://linktr.ee/mauzum_shamil](https://linktr.ee/mauzum_shamil)
+  A centralized hub for all my work, including projects, blogs, and social media profiles.
+
+
